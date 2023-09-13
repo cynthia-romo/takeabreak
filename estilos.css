@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    align-items: flex-end;
+
+    /*flex-direction: column-reverse;*/
+
+}
+
+/*Flex direction:
+
+-row
+-row-reverse
+-column
+-column-reverse
+
+*/
+
+/*Flex wrap:
+
+-wrap
+-wrap-reverse
+-column
+-column-reverse
+
+*/
+
+.elemento{
+    width: 25%;
+    background-color: #3f5584;
+    height: 30px;
+    border: solid;
+    margin: 5px;
+    text-align: center;
+}
